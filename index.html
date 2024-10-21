@@ -51,7 +51,9 @@
             text-align: center;
         }
         span{
-            color: red;
+            color: black;
+            font-size: larger;
+            font-weight: bolder;
         }
         .portfolio-column {
             display: flex;
@@ -96,6 +98,15 @@
             border: 5px solid springgreen;
 
         }
+        .column-list {
+            display: grid;
+            padding: 20px;
+            list-style-type: decimal;
+            margin: 5px 0;
+            gap: 15px;
+
+
+        }
     </style>
 </head>
 <body>
@@ -113,7 +124,7 @@
        <div class="image-container">
            <img src="assets/myimage 2.jpg" width="200" height="200"/>
        </div>
-   <p class="tagline"> <span>Japhes Murithi</span>: Full-Stack Developer Focused on Performance and Usability.
+   <p class="tagline"> <b>Japhes Murithi</b>: Full-Stack Developer Focused on Performance and Usability.
        </p>
 </nav>
 
@@ -123,31 +134,33 @@
 
 <div class="portfolio-column">
 
-    <h1>Skills</h1>
-    <ul>
-        <li>Fronted Developer,</li>
-        <li>Backed Developer,</li>
-        <li>DevOps and Deployment,</li>
-        <li>Cross-browser Compatibility,</li>
-        <li>UX/UI Design Principles,</li>
+
+    <ul class="column-list">
+        <li><span>Skills</span></li><br>
+        <li>Fronted Developer,</li><br>
+        <li>Backed Developer,</li><br>
+        <li>DevOps and Deployment,</li><br>
+        <li>Cross-browser Compatibility,</li><br>
+        <li>UX/UI Design Principles,</li><br>
     </ul>
 </div>
 
 <div class="portfolio-column">
 
-    <h1>Hobbies</h1>
-    <ul>
-        <li>coding personal projects,</li>
-        <li>Learning new web technologies,</li>
 
-        <li>Building web apps or websites for fun,</li>
+    <ul class="column-list">
+        <li><span>Hobbies</span></li><br>
+        <li>coding personal projects,</li><br>
+        <li>Learning new web technologies,</li><br>
 
-       <li>Participating in hackathons,</li>
+        <li>Building web apps or websites for fun,</li><br>
+
+       <li>Participating in hackathons,</li><br>
     </ul>
 
 
 
-</div>
+</--div>
 
 </section>
 
@@ -160,6 +173,8 @@
         <li><a href="https://github.com/JAPHES" target="_blank">GitHub</a></li>
         <li><a href="https://wa.me/0769809329" target="_blank">WhatsAPP</a></li>
         <li><a href="https://www.linkedin.com/in/Japhes Murithi" target="_blank">LinkedIn</a></li>
+
+
 
     </ul>
 
