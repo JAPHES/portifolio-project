@@ -82,9 +82,10 @@
             color: #1e90ff;
             transition: color 0.3s;
             font-size: larger;
+            text-decoration: none;
         }
         .social-links a:hover{
-            color: darkred;
+            color: black;
         }
 
             .image-container{
@@ -105,9 +106,37 @@
             list-style-type: decimal;
             margin: 5px 0;
             gap: 15px;
+            margin: 4px;
+            background-color: #dfe7ee;
+            max-width: 200px;
+            
+            
 
 
         }
+        .row{
+
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin: 20px;  /* adds margin the entire row*/
+            background-color: lightgrey;  
+        }
+        .wrapper{
+            padding: 20px; /* creates the "margin" effect*/
+            background-color: lightblue;
+            transition: background-color 0.3s;
+
+
+        }
+        .wrapper:hover{
+            background-color: #11df22;
+
+        }
+        
+        
+        
+        
     </style>
 </head>
 <body>
@@ -133,7 +162,9 @@
 
 <section id="about me">
 
-<div class="portfolio-column">
+
+<div class="row">
+    <div class="wrapper">
 
 
     <ul class="column-list">
@@ -144,9 +175,11 @@
         <li>Cross-browser Compatibility</li><br>
         <li>UX/UI Design Principles</li><br>
     </ul>
-</div>
+    </div>
 
-<div class="portfolio-column">
+
+<!---div class="portfolio-column"--->
+<div class="wrapper">
 
 
     <ul class="column-list">
@@ -161,7 +194,9 @@
 
 
 
-</--div>
+
+</div>
+
 
 </section>
 
